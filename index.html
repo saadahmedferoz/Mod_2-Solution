@@ -1,57 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mod2_solution </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mod2_solutionstyles.css">
+<style>
+@media (min-width: 1200px) {}
 
-<head> 
-    <title> Project 1 </title>
+    #box1{
+        background-color: lightblue;
+        padding: 5px;
+        margin: 5px;
+        border: 2px solid black;
+        font-size: 20px;
+        box-sizing: border-box;
+       
+    }
+    #box2{
+        background-color: rgb(197, 240, 8);
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;
+        border:2px  solid black;
+        float: right;
+        box-sizing: border-box;
+    
+    }
+    #box3{
+        background-color: deeppink;
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;
+        border: 2px solid black;
+        box-sizing: border-box;
+        float: right;
+        justify-content: center;
+    }
+
+    #bg{
+        width: 500px;
+        height: 500px;
+
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+    
+</style>
 </head>
 
-<!-- <body background="IMG-20190303-WA0242.jpg" style="background-repeat: no-repeat; background-attachment: fixed; background-position: center;"></body> -->
- 
-<!-- <font size="60"> This heading will be changed in future -->
-</font> <br/>
-<font size="20" color="yellow"> hello world </font> <br/>
 
-<p align="left"> <font size="20" color="red"> this is a sentence </p> </font> <br/>
+<body>
 
-<img src="IMG-20190303-WA0014.jpg"  width="120px" />
-<hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div>
+                <p class="style">
+                    <b>our menu</b>
+                </p>
+            </div>
+            <div>
+                <div class="col-md-4 box column">
+                    <b><button class="top-box">Chicken</button></b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nesciunt quam. Quod reiciendis ipsa voluptates nisi numquam minus. Magni exercitationem assumenda inventore modi accusamus quasi laudantium.
+                    </p>
+                </div>
+                
+                <div class="col-md-4 box column">
+                    <b><button class="top-box">Beef</button></b>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore exercitationem, suscipit magnam fugit dignissimos quo sit commodi illo sunt aspernatur beatae iure autem nobis nam similique quis! Ducimus.
+                    </p>
+                </div>
+                <div class="col-md-4 box column"> 
+                    <b><button class="top-box">Sushi</button></b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam non facilis odio accusantium totam, animi nesciunt? Reprehenderit dicta minima vitae maxime omnis libero dolor cupiditate recusandae ea.
+                    </p>
 
-hello world <br>
-<!-- <p class="line">Saad Ahmed</p> -->
-<a href="https://www.daraz.pk/"> Click here to go to website </a>
-<h1> My name is Saad Ahmed </h1>
-<h2> I'm 19 yrs old </h2>
-<h3> My hobbies is to play cricket </h3>
-<h4> Hello world </h4>
-<h4> hello world </h4>
-<h6> hello world </h6>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<b> This is bold </b> <br>
-<i> This is italic </i> <br>
-<u> This is underlined </u> <br>
-
-<big> This is big </big> <br>
-<small> This is small </small> <br>
-
-<p> CO<sub>2</sub></p>
-
-<p> ax <sup> 3 </sup> + bx <sup> 2 </sup> +c </p> <br>
-<pre>
-    Interpreter improvements:
-
-PEP 573, fast access to module state from methods of C extension types;
-
-PEP 617, CPython now uses a new parser based on PEG;
-
-a number of Python builtins (range, tuple, set, frozenset, list, dict) are now sped up using PEP 590 vectorcall;
-
-garbage collection does not block on resurrected objects;
-
-a number of Python modules (_abc, audioop, _bz2, _codecs, _contextvars, _crypt, _functools, _json, _locale, math, operator, resource, time, _weakref) now use multiphase initialization as defined by PEP 489;
-
-a number of standard library modules (audioop, ast, grp, _hashlib, pwd, _posixsubprocess, random, select, struct, termios, zlib) are now using the stable ABI defined by PEP 384.
-</pre> <br>
-
+     <script src="js/jquery1.11.3.min.js"></script>
+    <sript src="js/bootstrap.min.js"></sript>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
