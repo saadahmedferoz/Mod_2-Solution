@@ -1,0 +1,14 @@
+.container-fluid{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+
+.row{
+    margin: 30px;
+}
+.row > div{
+    border: 5px solid red;
+    background-color: royalblue;
+}
